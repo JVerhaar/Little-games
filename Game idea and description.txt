@@ -18,10 +18,22 @@ Keeping personal highscores.
 
 Needed:
 Drawings of the totem in 4 stages!
-Name of the game. 
+Name of the game. X
 Indicators
 timer
 Highscore
 start menu with simple art & logo
 logo 
+Screen = 1280 x 720
 -------------------------------------------------
+04-02-16
+Downloaded & Installed Github & set up
+Drew a replacement for the log
+Drew a replacement for empty totem
+Drew a replacement for painted totem
+Drew a replacement finished totem
+Made an solution and put it in Github
+Made a window and called it Totem Carver
+Created a start screen
+--------------------------------------------------
+
