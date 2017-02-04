@@ -1,0 +1,27 @@
+Educational 
+What do I want them to learn: languages? coding? 
+
+Shooting words
+-------------------------------------------------
+Totemcarver
+step 1 - get rid of the bark and shape the totem
+step 2 - paint the totem
+step 3 - make the symbol with magic paint
+
+step 1 - click on the bark twice
+step 2 - click on two parts of the totem
+step 3 - click on the top of the totem
+
+Indications show where to click
+Make as many as possible within a timer
+Keeping personal highscores. 
+
+Needed:
+Drawings of the totem in 4 stages!
+Name of the game. 
+Indicators
+timer
+Highscore
+start menu with simple art & logo
+logo 
+-------------------------------------------------
