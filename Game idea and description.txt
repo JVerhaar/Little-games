@@ -36,4 +36,7 @@ Made an solution and put it in Github
 Made a window and called it Totem Carver
 Created a start screen
 --------------------------------------------------
-
+05-02-16
+Drew a button
+Button lights up
+Made text in the button
