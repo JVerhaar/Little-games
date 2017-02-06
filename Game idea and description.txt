@@ -40,3 +40,10 @@ Created a start screen
 Drew a button
 Button lights up
 Made text in the button
+Drew a quit button
+Let it light up
+Buttons work
+--------------------------------------------------
+To do:
+Show background game
+Show wooden log
