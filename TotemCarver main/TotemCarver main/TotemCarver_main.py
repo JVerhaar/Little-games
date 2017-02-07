@@ -15,7 +15,7 @@ light_blue = (135,206,250)
 alice_blue = (240, 248, 255)
 red = (200,0,0)
 bright_red = (255,0,0)
-background_image = pygame.image.load('D:/jessi/Documents/Totemcarver main/Placeholder background game.png')
+background_image = pygame.image.load('images//Placeholder background game 2')
 
 def text_objects(text, font): #For text making purposes
     textSurface = font.render(text, True, alice_blue)
@@ -47,7 +47,7 @@ def quitgame():
 class GameMenu(): #Game menu
     def __init__(self, screen):
         self.screen = screen
-        self.background = pygame.image.load('D:/jessi/Documents/Totemcarver main/placeholder beginningscreen.png')#background start screen
+        self.background = pygame.image.load('images//placeholder beginningscreen.png')#background start screen
        
     def run(self):
         while True:
