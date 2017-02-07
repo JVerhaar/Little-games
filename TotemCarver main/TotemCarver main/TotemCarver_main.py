@@ -15,7 +15,7 @@ light_blue = (135,206,250)
 alice_blue = (240, 248, 255)
 red = (200,0,0)
 bright_red = (255,0,0)
-background_image = pygame.image.load('images//Placeholder background game 2')
+background_image = pygame.image.load('images//Placeholder background game 2.png')
 
 def text_objects(text, font): #For text making purposes
     textSurface = font.render(text, True, alice_blue)
