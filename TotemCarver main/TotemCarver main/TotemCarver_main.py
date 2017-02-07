@@ -28,8 +28,8 @@ class button:
 		self.Y = y
 		self.Width = w
 		self.Height = h
-		self.IColor = (50,50,50)
-		self.AColor = (100,100,100)
+		self.IColor = (240, 248, 255)
+		self.AColor = (135,206,250)
 		self.FontSize = fs 
 		self.Pressed = False
 	
@@ -45,7 +45,12 @@ class button:
 		else:
 			pygame.draw.rect(gameDisplay, self.AColor, (self.X, self.Y, self.Width, self.Height))
 
-		
+    def click(self):
+        if self.click[0] == 1 and action2 != None:
+            self.Pressed = True
+        if self.click[0] == 1 and action != None:
+            self.Pressed = True
+            
 
 def quitgame():
     pygame.quit()
@@ -89,7 +94,7 @@ def game_loop():
     pygame.display.update()
 
 #Runs all the things!  
-Button_Play = button("Play!",10,10,100,50,30) 
+Button_Play = button("Play!",493,579,250,80,30) 
 gm = GameMenu(gameDisplay)
 gm.run()
 game_loop()
