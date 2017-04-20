@@ -22,7 +22,7 @@ def text_objects(text, font): #For text making purposes
     return textSurface, textSurface.get_rect()
 
 class button:
-	def __init__(self, msg, x, y, w, h, fs, action=None, action2 = None):
+	def __init__(self, msg, x, y, w, h, fs, action=None):
 		self.msg = msg
 		self.X = x
 		self.Y = y
@@ -45,12 +45,13 @@ class button:
 		else:
 			pygame.draw.rect(gameDisplay, self.AColor, (self.X, self.Y, self.Width, self.Height))
 
-    def click(self):
-        if self.click[0] == 1 and action2 != None:
-            self.Pressed = True
-        if self.click[0] == 1 and action != None:
-            self.Pressed = True
-            
+	def click(self):
+		if self.X < pygame.mouse.get_pos()[0] < self.X + self.Width:
+			if self.Y < pygame.mouse.get_pos()[1] < self.Y + self.Height:
+				if self.click[0] == 1 and action2 != None:
+					self.Pressed = True
+				if self.click[0] == 1 and action != None:
+					self.Pressed = True
 
 def quitgame():
     pygame.quit()
@@ -90,11 +91,10 @@ def game_loop():
     gameExit = False
 
     gameDisplay.blit(game_bg, (0,0))
-    Button_Play.draw()
     pygame.display.update()
 
 #Runs all the things!  
-Button_Play = button("Play!",493,579,250,80,30) 
+Button_Play = button("Play!",493,579,250,80,30, game_loop()) 
 gm = GameMenu(gameDisplay)
 gm.run()
 game_loop()
